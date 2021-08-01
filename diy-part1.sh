@@ -16,8 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git liuran001packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default           ###有问题
+#echo 'src-git liuran001packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default           ###有问题
 #git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/MentoHUST-OpenWrt-ipk
 #git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
-#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
